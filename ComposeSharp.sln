@@ -1,0 +1,30 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DC946BBE-4A0F-4650-8BF2-D7352A13D591}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{14896040-EE98-4BF0-B538-1EF5015BD1EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposeSharp", "src\ComposeSharp\ComposeSharp.csproj", "{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ComposeSharp.Tests", "test\ComposeSharp.Tests\ComposeSharp.Tests.csproj", "{B2BFC570-6EC2-4041-AC45-030830BF2697}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74} = {DC946BBE-4A0F-4650-8BF2-D7352A13D591}
+		{B2BFC570-6EC2-4041-AC45-030830BF2697} = {14896040-EE98-4BF0-B538-1EF5015BD1EF}
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B6F1E54-0FEB-4335-81E5-6D0A855B0F74}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B2BFC570-6EC2-4041-AC45-030830BF2697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B2BFC570-6EC2-4041-AC45-030830BF2697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B2BFC570-6EC2-4041-AC45-030830BF2697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B2BFC570-6EC2-4041-AC45-030830BF2697}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
